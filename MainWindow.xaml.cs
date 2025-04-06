@@ -190,6 +190,6 @@ namespace Gra2D
             }
         }
     }
-}
+} // kacper s
 
 
