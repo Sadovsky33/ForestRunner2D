@@ -4,18 +4,27 @@
         Title="Gra WPF" Height="600" Width="800"
         KeyDown="OknoGlowne_KeyDown">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="77*"/>
+            <ColumnDefinition Width="123*"/>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <!-- Panel sterowania -->
-        <StackPanel Orientation="Horizontal" Margin="10">
+
+        <!-- Panel sterowania (DODANE: pasek energii) -->
+        <StackPanel Orientation="Horizontal" Margin="10,10,10,10" Grid.ColumnSpan="2">
             <Button Content="Wczytaj mapę" Click="WczytajMape_Click" Margin="0,0,10,0"/>
             <Label Name="EtykietaDrewna" Content="Drewno: 0" FontSize="16"/>
-            <Image x:Name="obraz" Height="100" Width="100" Source="/gracz.png"/>
+
+            <!-- DODANE: Ikona i pasek energii -->
+            <Image Source="serce.png" Width="20" Height="20" Margin="10,0,5,0"/>
+            <ProgressBar Name="PasekEnergii" Width="100" Height="20" Maximum="100" Value="100"/>
         </StackPanel>
+
         <!-- Kontener wyświetlający mapę -->
-        <Grid Name="SiatkaMapy" Grid.Row="1" Background="LightGray"/>
+        <Grid Name="SiatkaMapy" Grid.Row="1" Background="LightGray" Grid.ColumnSpan="2"/>
     </Grid>
 </Window>
 
