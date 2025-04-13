@@ -42,7 +42,7 @@ namespace Gra2D
             {
                 Width = RozmiarSegmentu,
                 Height = RozmiarSegmentu,
-                Source = new BitmapImage(new Uri("gracz.png", UriKind.Relative))
+                Source = new BitmapImage(new Uri("Zdjecia/gracz.png", UriKind.Relative))
             };
 
             // DODANE: Start timera energii
@@ -137,10 +137,10 @@ namespace Gra2D
 
         private void WczytajObrazyTerenu()
         {
-            obrazyTerenu[LAS] = new BitmapImage(new Uri("las.png", UriKind.Relative));
-            obrazyTerenu[LAKA] = new BitmapImage(new Uri("laka.png", UriKind.Relative));
-            obrazyTerenu[SKALA] = new BitmapImage(new Uri("skala.png", UriKind.Relative));
-            obrazyTerenu[JAGODY] = new BitmapImage(new Uri("jagody.png", UriKind.Relative));
+            obrazyTerenu[LAS] = new BitmapImage(new Uri("Zdjecia/las.png", UriKind.Relative));
+            obrazyTerenu[LAKA] = new BitmapImage(new Uri("Zdjecia/laka.png", UriKind.Relative));
+            obrazyTerenu[SKALA] = new BitmapImage(new Uri("Zdjecia/skala.png", UriKind.Relative));
+            obrazyTerenu[JAGODY] = new BitmapImage(new Uri("Zdjecia/jagody.png", UriKind.Relative));
         }
 
         private void AktualizujPozycjeGracza()

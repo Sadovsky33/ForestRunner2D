@@ -13,13 +13,14 @@
     <None Remove="laka.png" />
     <None Remove="las.png" />
     <None Remove="skala.png" />
+    <None Remove="Zdjecia\jagody.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="gracz.png" />
-    <Resource Include="laka.png" />
-    <Resource Include="las.png" />
-    <Resource Include="skala.png" />
+    <Resource Include="Zdjecia\gracz.png" />
+    <Resource Include="Zdjecia\laka.png" />
+    <Resource Include="Zdjecia\las.png" />
+    <Resource Include="Zdjecia\skala.png" />
   </ItemGroup>
 
 </Project>
