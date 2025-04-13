@@ -14,12 +14,19 @@
     <None Remove="las.png" />
     <None Remove="skala.png" />
     <None Remove="Zdjecia\jagody.png" />
+    <None Remove="Zdjecia\serce.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Zdjecia\gracz.png" />
+    <Resource Include="Zdjecia\jagody.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Zdjecia\laka.png" />
     <Resource Include="Zdjecia\las.png" />
+    <Resource Include="Zdjecia\serce.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Zdjecia\skala.png" />
   </ItemGroup>
 
