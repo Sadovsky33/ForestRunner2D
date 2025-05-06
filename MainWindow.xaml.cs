@@ -270,4 +270,4 @@ namespace Gra2D
             this.Close(); // Zamyka aplikację
         }
     }
-}
+} // Autor: K.S

@@ -1,0 +1,12 @@
+Zmiany projektu:
+- mapa generowana za pomoca petli
+- dodanie czasu na zebranie drzew
+- dodanie owoców odnawiajacych czas (procent)
+- wejscie na kamien odejmujace czas (procent)
+- rundy oraz animacja przy przejsciu
+- klawiszologia
+- wyskalowanie mapy
+- maksymalizacja okno i dodanie X do mozliwsci wyjscia z gry
+
+
+
